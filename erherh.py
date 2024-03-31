@@ -1,5 +1,5 @@
 import urllib.parse
-import request
+from urllib.request import requests
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
 key = "your_api_key"
